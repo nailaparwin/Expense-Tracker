@@ -1,5 +1,9 @@
+
 .App {
+  
   text-align: center;
+  width:30%;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -7,6 +11,28 @@
   pointer-events: none;
 }
 
+.inc-exp {
+  
+  display: flex;
+  padding: 10px;
+  margin: 20px 0;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+}
+
+.inc-exp > div {
+  flex: 1;
+  background-color: grey;
+  text-align: center;
+}
+.pos
+{
+  color:red;
+}
+.neg
+{
+  color:green;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
