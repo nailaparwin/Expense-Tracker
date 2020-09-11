@@ -13,7 +13,7 @@ export const AccountSummary = () => {
 
     const expense = amounts
     .filter( item => item < 0)
-    .reduce((acc, item) => (acc += item), 0) * -1 .toFixed(2);
+    .reduce((acc, item) => (acc += item), 0) * (-1).toFixed(2);
     
 return (
  <div className="inc-exp-container">

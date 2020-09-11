@@ -9,7 +9,8 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  background-color: #87adf3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,7 +102,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: lightsteelblue;
+  background-color: #041a36;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -175,3 +176,4 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
