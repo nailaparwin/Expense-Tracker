@@ -36,7 +36,7 @@ return (
                 value = {transactionAmount}
                 onChange = {(e) => setTransactionAmount(e.target.value)}/>
             </div>
-            <button >
+            <button className="btn">
                 Add Transaction
             </button>
         </form>

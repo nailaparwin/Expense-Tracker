@@ -16,14 +16,14 @@ export const AccountSummary = () => {
     .reduce((acc, item) => (acc += item), 0) * -1 .toFixed(2);
     
 return (
- <div className="inc-exp">
+ <div className="inc-exp-container">
      <div>
-         <h4> Income </h4>
-<p className="pos"> ${income}</p>
+         <h4 className="money"> Income </h4>
+<p className="money plus"> ${income}</p>
      </div>
      <div>
-         <h4> Expense </h4>
-<p className="neg"> ${expense}</p>
+         <h4 className="money"> Expense </h4>
+<p className="money minus"> ${expense}</p>
      </div>
  </div>
 );
